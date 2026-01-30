@@ -1,0 +1,3 @@
+In 
+this 
+example, a readStream is created to read the contents of a file. The ‘data’ event is added to the message queue in the poll phase, and the event loop will process it after the pending callbacks phase. The output will be the content of the file.
