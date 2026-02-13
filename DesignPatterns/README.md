@@ -21,11 +21,13 @@ DesignPatterns/
 ## 🚀 How to Run
 
 ### Run All Patterns
+
 ```bash
 node DesignPatterns/index.js
 ```
 
 ### Run Specific Pattern
+
 ```bash
 node DesignPatterns/index.js 1    # Module Pattern
 node DesignPatterns/index.js 2    # Singleton Pattern
@@ -34,6 +36,7 @@ node DesignPatterns/index.js 3    # Observer Pattern
 ```
 
 ### Run Individual Files
+
 ```bash
 node DesignPatterns/1-module-pattern.js
 node DesignPatterns/2-singleton-pattern.js
@@ -41,22 +44,23 @@ node DesignPatterns/2-singleton-pattern.js
 ```
 
 ### Show Help
+
 ```bash
 node DesignPatterns/index.js help
 ```
 
 ## 📋 Pattern Overview
 
-| Pattern | Real-World Example | When to Use | Key Benefits |
-|---------|-------------------|-------------|--------------|
-| **Module** | Shopping Cart (Amazon) | Private variables, libraries | Encapsulation, namespace management |
-| **Singleton** | Application Logger | Database connections, config | Resource control, global access |
-| **Observer** | YouTube Notifications | Event systems, real-time updates | Loose coupling, scalability |
-| **Factory** | Vehicle Manufacturing | Complex object creation | Flexibility, centralized creation |
-| **Promise** | Food Delivery App | Async operations, API calls | Non-blocking, error handling |
-| **Middleware** | Airport Security | Request processing, pipelines | Modularity, reusability |
-| **Prototype** | Game Characters | Object templates, cloning | Performance, memory efficiency |
-| **Strategy** | Navigation Routes | Multiple algorithms | Flexibility, clean code |
+| Pattern        | Real-World Example     | When to Use                      | Key Benefits                        |
+| -------------- | ---------------------- | -------------------------------- | ----------------------------------- |
+| **Module**     | Shopping Cart (Amazon) | Private variables, libraries     | Encapsulation, namespace management |
+| **Singleton**  | Application Logger     | Database connections, config     | Resource control, global access     |
+| **Observer**   | YouTube Notifications  | Event systems, real-time updates | Loose coupling, scalability         |
+| **Factory**    | Vehicle Manufacturing  | Complex object creation          | Flexibility, centralized creation   |
+| **Promise**    | Food Delivery App      | Async operations, API calls      | Non-blocking, error handling        |
+| **Middleware** | Airport Security       | Request processing, pipelines    | Modularity, reusability             |
+| **Prototype**  | Game Characters        | Object templates, cloning        | Performance, memory efficiency      |
+| **Strategy**   | Navigation Routes      | Multiple algorithms              | Flexibility, clean code             |
 
 ## 🎯 Interview Tips
 

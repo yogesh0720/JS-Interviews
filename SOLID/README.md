@@ -18,11 +18,13 @@ SOLID/
 ## 🚀 How to Run
 
 ### Run All Principles
+
 ```bash
 node SOLID/index.js
 ```
 
 ### Run Specific Principle
+
 ```bash
 node SOLID/index.js 1    # Single Responsibility Principle
 node SOLID/index.js 2    # Open/Closed Principle
@@ -32,6 +34,7 @@ node SOLID/index.js 5    # Dependency Inversion Principle
 ```
 
 ### Run Individual Files
+
 ```bash
 node SOLID/1-single-responsibility.js
 node SOLID/2-open-closed.js
@@ -39,43 +42,49 @@ node SOLID/2-open-closed.js
 ```
 
 ### Show Help
+
 ```bash
 node SOLID/index.js help
 ```
 
 ## 📋 SOLID Principles Overview
 
-| Principle | Acronym | Definition | Key Benefit |
-|-----------|---------|------------|-------------|
-| **Single Responsibility** | **S**RP | A class should have only one reason to change | Easier maintenance |
-| **Open/Closed** | **O**CP | Open for extension, closed for modification | Stable, extensible code |
-| **Liskov Substitution** | **L**SP | Subclasses should be substitutable for parent classes | True polymorphism |
-| **Interface Segregation** | **I**SP | Clients shouldn't depend on unused methods | Focused interfaces |
-| **Dependency Inversion** | **D**IP | Depend on abstractions, not concretions | Flexible, testable code |
+| Principle                 | Acronym | Definition                                            | Key Benefit             |
+| ------------------------- | ------- | ----------------------------------------------------- | ----------------------- |
+| **Single Responsibility** | **S**RP | A class should have only one reason to change         | Easier maintenance      |
+| **Open/Closed**           | **O**CP | Open for extension, closed for modification           | Stable, extensible code |
+| **Liskov Substitution**   | **L**SP | Subclasses should be substitutable for parent classes | True polymorphism       |
+| **Interface Segregation** | **I**SP | Clients shouldn't depend on unused methods            | Focused interfaces      |
+| **Dependency Inversion**  | **D**IP | Depend on abstractions, not concretions               | Flexible, testable code |
 
 ## 🎯 Real-World Examples
 
 ### 1. Single Responsibility Principle (SRP)
+
 - **Bad**: User class handling data, email, database, validation
 - **Good**: Separate classes for User, EmailService, UserRepository, EmailValidator
 - **Real Example**: E-commerce order system with separate services
 
 ### 2. Open/Closed Principle (OCP)
+
 - **Bad**: AreaCalculator with if/else for each shape type
 - **Good**: Shape interface with concrete implementations
 - **Real Example**: Discount system, notification channels
 
 ### 3. Liskov Substitution Principle (LSP)
+
 - **Bad**: Penguin extends Bird but throws error on fly()
 - **Good**: Separate FlyingBird and SwimmingBird classes
 - **Real Example**: Payment methods, vehicle hierarchy
 
 ### 4. Interface Segregation Principle (ISP)
+
 - **Bad**: Fat Worker interface forcing robots to implement eat()
 - **Good**: Separate interfaces for Workable, Eatable, Sleepable
 - **Real Example**: Media player system, document processor
 
 ### 5. Dependency Inversion Principle (DIP)
+
 - **Bad**: UserService directly creating MySQLDatabase
 - **Good**: UserService depends on Database abstraction
 - **Real Example**: Notification system, payment gateways
@@ -124,21 +133,25 @@ Each principle file includes:
 ## 💡 Benefits of Following SOLID
 
 ### Maintainability
+
 - Changes are localized and predictable
 - Easy to find and fix bugs
 - Clear separation of concerns
 
 ### Testability
+
 - Each component can be tested independently
 - Easy to mock dependencies
 - Better test coverage
 
 ### Flexibility
+
 - Easy to swap implementations
 - Support for multiple providers/strategies
 - Adaptable to changing requirements
 
 ### Scalability
+
 - Easy to add new features
 - Modular architecture
 - Reduced coupling between components
